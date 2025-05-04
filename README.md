@@ -1,6 +1,3 @@
-Here's a professional `README.md` for your GitHub repository based on the project documentation:
-
-```markdown
 # Hybrid System to Detect and Mitigate Privilege Escalation Attacks in Cloud Environment Using ML
 
 ![Cloud Security](https://img.shields.io/badge/Cloud-Security-blue)
@@ -89,12 +86,10 @@ streamlit run app.py
 ├── models/               # Pre-trained ML models
 │   ├── email_classifier.pkl
 │   └── tfidf_vectorizer.pkl
-├── data/                 # Sample datasets
-│   ├── CERT.csv
-│   └── blocked_users.csv
+├── CERT.csv
+│── blocked_users.csv
+│── users.csv
 ├── app.py                # Main Streamlit application
-├── model.py              # ML training pipeline
-└── requirements.txt      # Python dependencies
 ```
 
 ## Contributors
@@ -106,8 +101,6 @@ streamlit run app.py
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ```
 
 **Recommended GitHub Additions**:
@@ -115,7 +108,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
    - Attacker interface
    - Admin dashboard
    - Detection results
-2. Include a demo video link
-3. Add contribution guidelines in `CONTRIBUTING.md`
-
-The README highlights your project's technical strengths while maintaining readability for both technical and non-technical audiences. The badge system and clear structure follow GitHub best practices.
